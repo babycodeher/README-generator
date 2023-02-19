@@ -16,16 +16,40 @@ let { title, description, } = await inquirer
                 return 'Not applicable';
             },
         },
+        {
+            type: 'input',
+            name: 'description',
+            message: "Write a short description of the project",
+            default() {
+                return 'Not applicable';
+            },
+        },
+        {
+            type: 'input',
+            name: 'description',
+            message: "Write a short description of the project",
+            default() {
+                return 'Not applicable';
+            },
+        },
+        {
+            type: 'input',
+            name: 'description',
+            message: "Write a short description of the project",
+            default() {
+                return 'Not applicable';
+            },
+        },
     ])
 
-// `# Project Title
-// ${title}
+`# Project Title
+${title}
 
 
-// ## Project Description
-// ${description}
+## Project Description
+${description}
 
 
-// ###### The smallest heading`
+###### The smallest heading`
 
 console.log(title, description);
