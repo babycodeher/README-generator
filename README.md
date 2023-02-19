@@ -7,7 +7,7 @@ This project is a command-line application developed to accept user input thereb
 
 
 ## Installation
-In order to be able to use this application, the user has to install npm inquirer package.
+In order to be able to use this application, the user has to install npm [inquirer package] (https://www.npmjs.com/package/inquirer).
 
 
 ## Usage
