@@ -61,8 +61,7 @@ let { title, description, installation, usage, contributors, license, gitHub, em
         },
     ])
 
-let readMeText = `# Project Title
-${title}
+let readMeText = `# ${title}
 
 ## Project Description
 ${description}
@@ -80,8 +79,8 @@ ${contributors}
 ${generateLicense(license)}
 
 ## Questions
-Link to GitHub: ${gitHub}
-Email address: ${email}`
+#### GitHub: https://github.com/${gitHub}
+#### Email address: ${email}`
 
 
 await fs.writeFile("projectREADME.md", readMeText);

@@ -1,5 +1,4 @@
-# Project Title
-Password Generator
+# Password Generator
 
 ## Project Description
 This application has been developed to allow a user generate random password based on criteria they have selected. It has been developed to practice my knowledge of intermediate JavaScript and designed using pre-populated HTML and CSS codes.
@@ -17,5 +16,5 @@ Not applicable
 [![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 
 ## Questions
-babycodeher
-babycodeher@gmail.com
+#### GitHub: https://github.com/babycodeher
+#### Email address: babycodeher@gmail.com
