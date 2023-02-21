@@ -1,7 +1,7 @@
 import inquirer from 'inquirer';
-// import fs from "fs/promises";
+import fs from "fs/promises";
 
-let { title, description, } = await inquirer
+let { title, description, installation, usage, contributors, license, } = await inquirer
     .prompt([
         {
             type: 'input',
@@ -33,23 +33,61 @@ let { title, description, } = await inquirer
             },
         },
         {
-            type: 'list',
+            type: 'input',
             name: 'contributors',
             message: "Who are the contributors to this project?",
             default() {
                 return 'Not applicable';
             },
         },
+        {
+            type: 'list',
+            name: 'license',
+            message: 'What license do you need?',
+            choices: ['MIT', 'Apache', 'GPLv2'],
+            filter(val) {
+                return val.toLowerCase();
+            },
+        },
     ])
 
-`# Project Title
+let readMeText = `# Project Title
 ${title}
-
 
 ## Project Description
 ${description}
 
+## Installation
+${installation}
 
-###### The smallest heading`
+## Usage
+${usage}
 
-console.log(title, description);
+## Contributors
+${contributors}
+
+## License
+${generateLicense(license)}`
+
+
+await fs.writeFile("projectREADME.md", readMeText);
+
+
+function generateLicense(license) {
+
+    if (license === 'MIT') {
+
+        return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    } else {
+
+        if (license === 'Apache') {
+            return "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+        }
+
+        else {
+            return "[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)"
+        }
+    }
+};
+
+console.log('success');
