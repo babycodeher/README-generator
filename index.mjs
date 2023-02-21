@@ -18,24 +18,24 @@ let { title, description, } = await inquirer
         },
         {
             type: 'input',
-            name: 'description',
-            message: "Write a short description of the project",
+            name: 'installation',
+            message: "What installation does your project/application require in order to work?",
             default() {
                 return 'Not applicable';
             },
         },
         {
             type: 'input',
-            name: 'description',
-            message: "Write a short description of the project",
+            name: 'usage',
+            message: "What is your project used for?",
             default() {
                 return 'Not applicable';
             },
         },
         {
-            type: 'input',
-            name: 'description',
-            message: "Write a short description of the project",
+            type: 'list',
+            name: 'contributors',
+            message: "Who are the contributors to this project?",
             default() {
                 return 'Not applicable';
             },
