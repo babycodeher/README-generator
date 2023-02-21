@@ -1,7 +1,7 @@
 import inquirer from 'inquirer';
 import fs from "fs/promises";
 
-let { title, description, installation, usage, contributors, license, } = await inquirer
+let { title, description, installation, usage, contributors, license, gitHub, email} = await inquirer
     .prompt([
         {
             type: 'input',
@@ -49,6 +49,16 @@ let { title, description, installation, usage, contributors, license, } = await 
                 return val.toLowerCase();
             },
         },
+        {
+            type: 'input',
+            name: 'gitHub',
+            message: "What's your GitHub username?",
+        },
+        {
+            type: 'input',
+            name: 'email',
+            message: "What's your email address?",
+        },
     ])
 
 let readMeText = `# Project Title
@@ -67,7 +77,11 @@ ${usage}
 ${contributors}
 
 ## License
-${generateLicense(license)}`
+${generateLicense(license)}
+
+## Questions
+Link to GitHub: ${gitHub}
+Email address: ${email}`
 
 
 await fs.writeFile("projectREADME.md", readMeText);
