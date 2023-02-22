@@ -68,7 +68,7 @@ let readMeText = `# ${title}
 - [Usage](#usage)
 - [Contributors](#contributors)
 - [License](#license)
-- Questions
+- [Questions](#questions)
     - [GitHub](#gitHub)
     - [Email](#email)
 
