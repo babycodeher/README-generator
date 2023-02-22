@@ -21,6 +21,7 @@ https://watch.screencastify.com/v/RuzLgSr5nTPVBFkcIvZu
 ![readme demo](./asset/readME-generator-video-demo.gif)
 
 #### Screenshot of the README file generated using the application
+![screenshot](./asset/console-generated-README-file-screenshot.png)
 
 ## Credits
 N/A
