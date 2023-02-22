@@ -63,6 +63,18 @@ let { title, description, installation, usage, contributors, license, gitHub, em
 
 let readMeText = `# ${title}
 
+
+# Table of contents
+- [Project title](#title)
+- [Project description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributors](#contributors)
+- [License](#license)
+- [Questions]
+    - [GitHub](#gitHub)
+    - [Email](#email)
+
 ## Project Description
 ${description}
 

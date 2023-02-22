@@ -1,5 +1,17 @@
 # Password Generator
 
+
+# Table of contents
+- [Project title](#title)
+- [Project description](#description)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributors](#contributors)
+- [License](#license)
+- [Questions]
+    - [GitHub](#gitHub)
+    - [Email](#email)
+
 ## Project Description
 This application has been developed to allow a user generate random password based on criteria they have selected. It has been developed to practice my knowledge of intermediate JavaScript and designed using pre-populated HTML and CSS codes.
 
@@ -17,4 +29,4 @@ Not applicable
 
 ## Questions
 #### GitHub: https://github.com/babycodeher
-#### Email address: babycodeher@gmail.com
+#### Email address: oyewumikr@gmail.com
