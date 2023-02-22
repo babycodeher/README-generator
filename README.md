@@ -18,7 +18,7 @@ Below is a video walk through of how the application works
 https://watch.screencastify.com/v/RuzLgSr5nTPVBFkcIvZu
 
 #### Walktrough gif
-
+![readme demo](./asset/readME-generator%20video%20demo.gif)
 
 #### Screenshot of the README file generated using the application
 
