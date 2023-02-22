@@ -8,7 +8,7 @@
 - [Usage](#usage)
 - [Contributors](#contributors)
 - [License](#license)
-- [Questions]
+- Questions
     - [GitHub](#gitHub)
     - [Email](#email)
 
@@ -25,8 +25,8 @@ The application runs in the browser and enables the user to generate a randon pa
 Not applicable
 
 ## License
-[![License: GPL v2](https://img.shields.io/badge/License-GPL_v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Questions
-#### GitHub: https://github.com/babycodeher
-#### Email address: oyewumikr@gmail.com
+##### GitHub: https://github.com/babycodeher
+##### Email address: babycodeher@gmail.com

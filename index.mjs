@@ -45,9 +45,6 @@ let { title, description, installation, usage, contributors, license, gitHub, em
             name: 'license',
             message: 'What license do you need?',
             choices: ['MIT', 'Apache', 'GPLv2'],
-            filter(val) {
-                return val.toLowerCase();
-            },
         },
         {
             type: 'input',
@@ -71,7 +68,7 @@ let readMeText = `# ${title}
 - [Usage](#usage)
 - [Contributors](#contributors)
 - [License](#license)
-- [Questions]
+- Questions
     - [GitHub](#gitHub)
     - [Email](#email)
 
@@ -91,8 +88,8 @@ ${contributors}
 ${generateLicense(license)}
 
 ## Questions
-#### GitHub: https://github.com/${gitHub}
-#### Email address: ${email}`
+##### GitHub: https://github.com/${gitHub}
+##### Email address: ${email}`
 
 
 await fs.writeFile("projectREADME.md", readMeText);
