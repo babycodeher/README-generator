@@ -3,8 +3,6 @@
 ## About the Project
 This project is a command-line application developed to accept user input thereby enabling a user to quickly create a professional README for a new project. It has been developed using node.js.
 
-#### Link to GitHub reository containing application code
-
 
 ## Installation
 In order to be able to use this application, the user has to install npm [inquirer package] (https://www.npmjs.com/package/inquirer).
@@ -17,6 +15,10 @@ When a user clicks on the links in the 'Table of Contents' section they are redi
 
 ### Roadmap
 Below is a video walk through of how the application works
+https://watch.screencastify.com/v/RuzLgSr5nTPVBFkcIvZu
+
+#### Walktrough gif
+
 
 #### Screenshot of the README file generated using the application
 
