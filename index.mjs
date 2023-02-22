@@ -1,7 +1,7 @@
 import inquirer from 'inquirer';
 import fs from "fs/promises";
 
-let { title, description, installation, usage, contributors, license, gitHub, email} = await inquirer
+let { title, description, installation, usage, contributors, license, gitHub, email } = await inquirer
     .prompt([
         {
             type: 'input',
@@ -68,9 +68,8 @@ let readMeText = `# ${title}
 - [Usage](#usage)
 - [Contributors](#contributors)
 - [License](#license)
-- [Questions](#questions)
-    - [GitHub](#gitHub)
-    - [Email](#email)
+- [Questions](#gitHub)
+   
 
 ## Project Description
 ${description}

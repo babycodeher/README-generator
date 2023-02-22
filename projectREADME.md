@@ -8,9 +8,8 @@
 - [Usage](#usage)
 - [Contributors](#contributors)
 - [License](#license)
-- Questions
-    - [GitHub](#gitHub)
-    - [Email](#email)
+- [Questions](#gitHub)
+   
 
 ## Project Description
 This application has been developed to allow a user generate random password based on criteria they have selected. It has been developed to practice my knowledge of intermediate JavaScript and designed using pre-populated HTML and CSS codes.
@@ -25,7 +24,7 @@ The application runs in the browser and enables the user to generate a randon pa
 Not applicable
 
 ## License
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ## Questions
 ##### GitHub: https://github.com/babycodeher
